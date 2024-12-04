@@ -66,3 +66,15 @@ footer a {
     color: white;
 
 }
+
+footer a:link, 
+footer a:visited, 
+footer a:hover, 
+footer a:active {
+    color: white; /* Ensures links are always white */
+}
+
+footer a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
